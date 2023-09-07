@@ -215,7 +215,7 @@ export function Sealer(props: WalletConnectionProps) {
                   type="button"
                   onClick={() => {
                       window.open(
-                          `https://testnet.ccdscan.io/?dcount=1&dentity=account&daddress=${account}`,
+                          `https://ccdscan.io/?dcount=1&dentity=account&daddress=${account}`,
                           '_blank',
                           'noopener,noreferrer'
                       );
@@ -378,7 +378,7 @@ export function Sealer(props: WalletConnectionProps) {
                                     type="button"
                                     onClick={() => {
                                         window.open(
-                                            `https://testnet.ccdscan.io/?dcount=1&dentity=transaction&dhash=${hash}`,
+                                            `https://ccdscan.io/?dcount=1&dentity=transaction&dhash=${hash}`,
                                             '_blank',
                                             'noopener,noreferrer'
                                         );
