@@ -8,7 +8,7 @@ import {
   ConcordiumGRPCClient,
 } from '@concordium/web-sdk';
 import sha256 from 'sha256';
-import { useGrpcClient, TESTNET, WalletConnectionProps, useConnection, useConnect } from '@concordium/react-components';
+import { useGrpcClient, MAINNET, WalletConnectionProps, useConnection, useConnect } from '@concordium/react-components';
 // import { version } from '../package.json';
 import { register } from './utils';
 import {
@@ -113,7 +113,7 @@ export function Sealer(props: WalletConnectionProps) {
 
   const { connect, isConnecting, connectError } = useConnect(activeConnector, setConnection);
 
-  const grpcClient = useGrpcClient(TESTNET);
+  const grpcClient = useGrpcClient(MAINNET);
 
   const [isLoading, setLoading] = useState(false);
 

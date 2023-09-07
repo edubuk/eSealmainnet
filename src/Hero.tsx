@@ -1,4 +1,4 @@
-import { TESTNET, WithWalletConnector } from '@concordium/react-components';
+import { MAINNET, WithWalletConnector } from '@concordium/react-components';
 import './App.css';
 import { Sealer } from './Sealer';
 
@@ -74,7 +74,7 @@ export function Hero() {
         </span>
       </div>
       <main className="Sealer">
-        <WithWalletConnector network={TESTNET}>{(props) => <Sealer {...props} />}</WithWalletConnector>
+        <WithWalletConnector network={MAINNET}>{(props) => <Sealer {...props} />}</WithWalletConnector>
       </main>
     </>
   )
