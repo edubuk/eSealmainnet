@@ -4,7 +4,7 @@ import { WalletConnection, moduleSchemaFromBase64 } from "@concordium/react-comp
 import { E_SEALING_RAW_SCHEMA, E_SEALING_CONTRACT_NAME } from "./constants";
 
 /**
- * Action for registering a new file has in the edubukeseal_testnet smart contract instance
+ * Action for registering a new file has in the edubukeseal_mainnet smart contract instance
  */
 
 export async function register(
