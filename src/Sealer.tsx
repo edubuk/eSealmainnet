@@ -43,6 +43,7 @@ const ButtonStyleSelected = {
   backgroundColor: "#ff80df",
   fontWeight: "600",
   fontSize: "1.2rem",
+  PointerEvent: "none"
 };
 
 const InputFieldStyle = {
@@ -62,7 +63,7 @@ const Disabled = {
 const Enabled = {};
 
 async function postEseal(filehash: string, issuedTo: string, issuedBy: string, cerType: string, hash: string, timestamp: string, signer: string) {
-  await fetch("http://localhost:4000/eseal", {
+  await fetch("http://edubukeseal.org/eseal", {
     method: 'POST',
     body: JSON.stringify([filehash, issuedTo, issuedBy, cerType, hash, timestamp, signer])
   }).then((res) => console.log(res));
@@ -196,7 +197,7 @@ export function Sealer(props: WalletConnectionProps) {
   return (
     <div className="container hero" id="sealer" style={{paddingTop: "25vh", paddingBottom: "25vh", maxWidth: "340px"}}>
       <div style={{border: "3px solid #ff80dfff", borderRadius: "8px", maxWidth: "340px"}}>
-        <div className="container"><button style={ButtonStyleSelected}>eSeal Your Certificate</button></div>
+        <div className="container"><button className="boxtitle" style={{"pointerEvents": "none", "color": "black"}}>eSeal Your Certificate</button></div>
         <div className="container" style={{display: "flex", flexDirection: "row", justifyContent: "space-between", columnGap: "20px"}}>
           <WalletConnectionTypeButton
             buttonStyle={ButtonStyle}

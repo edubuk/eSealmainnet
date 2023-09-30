@@ -420,3 +420,9 @@ button.button-small {
 .container .textinputfield[type=text]:focus-within {
   border: 2px solid #7303fc;
 }
+
+.boxtitle {
+  pointer-events: none;
+  background-color: #ff80df;
+  color: black;
+}

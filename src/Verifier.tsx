@@ -79,7 +79,7 @@ const Disabled = {
 const Enabled = {};
 
 async function getEseal(filehash: string) {
-  const result = await fetch(`http://localhost:4000/eseal?filehash=${filehash}`); 
+  const result = await fetch(`http://edubukeseal.org/eseal?filehash=${filehash}`); 
   return result;
 }
 
@@ -197,7 +197,7 @@ export function Verifier(props: WalletConnectionProps) {
   return (
     <div className="container hero" id="verifier" style={{maxWidth: "340px", paddingTop: "25vh", paddingBottom: "25vh"}}>
       <div style={{border: "3px solid #ff80dfff", borderRadius: "8px", maxWidth: "340px"}}>
-        <div className="container"><button style={ButtonStyleSelected}>Verify Your Certificates</button></div>
+        <div className="container"><button className="boxtitle" style={{"pointerEvents": "none", "color": "black"}}>Verify Your Certificates</button></div>
         <div className="container" style={{display: "flex", flexDirection: "row", justifyContent: "space-between", columnGap: "10px"}}>
           <WalletConnectionTypeButton
             buttonStyle={ButtonStyle}
