@@ -79,7 +79,7 @@ const Disabled = {
 const Enabled = {};
 
 async function getEseal(filehash: string) {
-  const result = await fetch(`http://edubukeseal.org/eseal?filehash=${filehash}`); 
+  const result = await fetch(`https://edubukeseal.org/eseal?filehash=${filehash}`); 
   return result;
 }
 
