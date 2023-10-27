@@ -389,7 +389,7 @@ export function Sealer(props: WalletConnectionProps) {
             <p>
                 {isRegisterFilePage && (
                     <div className="container" style={{paddingTop: "0em"}}>
-                        <div style={{color: "white", paddingBottom: "0.4em"}}>Transaction status{hash === '' ? '' : ''}</div>
+                        <div style={{color: "white", paddingBottom: "0.4em", fontWeight: "900"}}>Transaction status{hash === '' ? '' : ''}</div>
                         {!hash && transactionError && (
                             <div style={{ color: 'peach' }}>Error: {transactionError}.</div>
                         )}

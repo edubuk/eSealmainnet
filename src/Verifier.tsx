@@ -23,8 +23,8 @@ const ResultStyle = {
   color: "rgb(3, 21, 57)",
   padding: "0.12em 0.22em",
   borderRadius: "8px",
-  fontWeight: "500",
-  border: "4px solid rgb(236, 72, 153)"
+  fontWeight: "400",
+  border: "4px solid rgb(236, 72, 153)",
 }
 
 const ButtonStyle = {
@@ -327,18 +327,18 @@ export function Verifier(props: WalletConnectionProps) {
                 {!false && witness !== '' && (
                     <div style={{color: "#7303fc", paddingTop: "0em"}} className="container">
                         <div style={{paddingBottom: "0.4em", paddingTop: "0em", color: "white", fontWeight: "900"}}>On-chain Record:</div>
-                        <div className="loadingText" style={{wordWrap: "break-word", padding: "0.4em", borderRadius: "8px", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
+                        <div className="loadingText" style={{padding: "0.4em", borderRadius: "8px", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
                         <div className="loadingText" style={{paddingTop: "0.4em", lineHeight: "1.5", color: "white", fontWeight: "900"}}>
-                            Timestamp: <br /><span style={ResultStyle}>{timestamp === null ? 'Not registered' : timestamp}</span>
+                            Timestamp: <br /><button style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}} >{timestamp === null ? 'Not registered' : timestamp}</button>
                         </div>
                         <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
-                            Certificate Issued To: <span style={ResultStyle}>{name === null ? 'No Name' : name}</span>
+                            Certificate Issued To: <button style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}} type="button">{name === null ? 'No Name' : name}</button>
                         </div>
                         <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
-                            Issued By: <span style={ResultStyle}>{authority === null ? 'No Authority' : authority}</span>
+                            Issued By: <br /> <button style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}} type="button">{authority === null ? 'No Authority' : authority}</button>
                         </div>
                         <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
-                            Certificate Type: <span style={ResultStyle}>{certType === null ? 'No Certificate Type' : certType}</span>
+                            Certificate Type: <br /> <button style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}} type="button">{certType === null ? 'No Certificate Type' : certType}</button>
                         </div>
                         <div style={{marginTop: "0.5em"}}>
                             {

@@ -78,10 +78,10 @@ export function Hero() {
           </div>
         </span>
       </div>
-      <div className="Sealer" style={{marginTop: "25px", marginBottom: "25px", display: "block"}}>
+      <div className="Sealer" style={{marginTop: "25px", marginBottom: "75px", display: "block"}}>
         <WithWalletConnector network={MAINNET}>{(props) => <Sealer {...props} />}</WithWalletConnector>
       </div>
-      <div className="Verifier" style={{paddingTop: "25px", marginBottom: "25px", display: "block"}}>
+      <div className="Verifier" style={{paddingTop: "75px", marginBottom: "100px", display: "block"}}>
         <WithWalletConnector network={MAINNET}>{(props) => <Verifier {...props} />}</WithWalletConnector>
       </div>
     </>

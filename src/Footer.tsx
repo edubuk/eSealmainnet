@@ -18,7 +18,7 @@ export function Footer() {
           <span style={{color: "#ffffff", fontWeight: "600"}}>Made with ❤️  by Edubuk.io</span>
         </a>
         <div style={{paddingTop: "2vh", justifyContent: "center", textAlign: "center"}}>
-          <span style={{paddingTop: "1em", fontWeight: "600", color: "#ffffff"}}><span style={{fontSize: "1.2em"}}>©</span> Copyright 2023 - Edubuk</span>
+          <span style={{paddingTop: "1em", fontWeight: "600", color: "#ffffff"}}><span style={{fontSize: "1.2em"}}>©</span> Copyright - Edubuk</span>
         </div>
       </div>
     </footer>
