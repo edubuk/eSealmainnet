@@ -327,7 +327,7 @@ export function Verifier(props: WalletConnectionProps) {
                 {!false && witness !== '' && (
                     <div style={{color: "#7303fc", paddingTop: "0em"}} className="container">
                         <div style={{paddingBottom: "0.4em", paddingTop: "0em", color: "white", fontWeight: "900"}}>On-chain Record:</div>
-                        <div className="loadingText" style={{padding: "0.4em", borderRadius: "8px", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
+                        <div className="loadingText" style={{padding: "0.4em", borderRadius: "8px", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)", wordWrap: "break-word"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
                         <div className="loadingText" style={{paddingTop: "0.4em", lineHeight: "1.5", color: "white", fontWeight: "900"}}>
                             Timestamp: <br /><button style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}} >{timestamp === null ? 'Not registered' : timestamp}</button>
                         </div>
