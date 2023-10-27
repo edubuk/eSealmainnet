@@ -5,9 +5,10 @@ import { Verifier } from './Verifier';
 
 export function Hero() {
   const hero_span_style = {
-    border: "3px solid #ff80dfff",
+    border: "4px solid rgb(236, 72, 153)",
     padding: "2em",
     borderRadius: "8px",
+    color: "#ffffff",
   };
 
   async function Confetti() {
@@ -68,12 +69,12 @@ export function Hero() {
       <div className="container hero" style={{paddingTop: "5vh", paddingBottom: "5vh"}}>
         <span style={hero_span_style}>
           <h1>Edubuk<br />eSeal dApp</h1>
-          <p style={{fontSize: "24px", paddingTop: "3vh", textAlign: "center"}}><span className="highlight">Powered by Concordium</span></p>
+          <p style={{fontSize: "24px", paddingTop: "3vh", textAlign: "center"}}><span className="highlight">Powered by <span style={{fontWeight: "600"}}>Concordium Blockchain</span></span></p>
           <div className="button-group" style={{justifyContent: "center", paddingTop: "3vh"}}>
-            <a href="#sealer"><button className="button" style={{backgroundColor: "#7303fc", padding: "1em"}} onClick={(e: any) => Confetti()}>eSeal Your Certificates</button></a>
+            <a href="#sealer"><button className="button" style={{backgroundColor: "#ffffff", color: "rgb(3, 21, 57)", padding: "1em", border: "4px solid rgb(236, 72, 153)"}} onClick={(e: any) => Confetti()}>eSeal Your Certificates</button></a>
           </div>
           <div className="button-group" style={{justifyContent: "center", paddingTop: "3vh"}}>
-            <a href="#verifier"><button className="button" style={{backgroundColor: "#7303fc", padding: "1em"}} onClick={(e: any) => Confetti()}>Verify Your Certificates</button></a>
+            <a href="#verifier"><button className="button" style={{backgroundColor: "#ffffff", color: "rgb(3, 21, 57)", padding: "1em", border: "4px solid rgb(236, 72, 153)"}} onClick={(e: any) => Confetti()}>Verify Your Certificates</button></a>
           </div>
         </span>
       </div>

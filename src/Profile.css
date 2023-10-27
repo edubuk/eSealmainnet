@@ -16,9 +16,11 @@
   padding: 10px;
   font-size: 1.5em;
   margin-bottom: 10vh;
-  border: 3px solid #ff80dfff;
+  border: 4px solid rgb(236, 72, 153);
   border-radius: 8px;
   margin-top: 10vh;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .card a {

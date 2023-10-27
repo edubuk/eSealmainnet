@@ -19,28 +19,32 @@ import {
 import { WalletConnectionTypeButton } from './WalletConnectorTypeButton';
 
 const ResultStyle = {
-  background: "#7303fc",
-  color: "white",
-  padding: "0.1em 0.2em",
+  background: "white",
+  color: "rgb(3, 21, 57)",
+  padding: "0.12em 0.22em",
   borderRadius: "8px",
+  fontWeight: "500",
+  border: "4px solid rgb(236, 72, 153)"
 }
 
 const ButtonStyle = {
-  color: "white",
+  color: "rgb(3, 21, 57)",
   borderRadius: "8px",
-  backgroundColor: "#7303fc",
+  backgroundColor: "white",
   cursor: "pointer",
   fontWeight: "600",
   fontSize: "1rem",
+  border: "4px solid rgb(236, 72, 153)"
 };
 
 const ButtonStyleDisabled = {
-  color: "white",
+  color: "rgb(3, 21, 57)",
   borderRadius: "8px",
-  backgroundColor: "#7303fc",
+  backgroundColor: "white",
   cursor: "pointer",
   fontWeight: "600",
   fontSize: "1rem",
+  border: "4px solid rgb(236, 72, 153)"
 };
 
 const ButtonStyleSelected = {
@@ -49,17 +53,19 @@ const ButtonStyleSelected = {
   backgroundColor: "#ff80df",
   fontWeight: "600",
   fontSize: "1.2rem",
+  border: "4px solid rgb(236, 72, 153)"
 };
 
 const InputFieldStyle = {
-  backgroundColor: "#7303fc",
-  color: "white",
+  backgroundColor: "white",
+  color: "rgb(3, 21, 57)",
   borderRadius: "8px",
   // width: "100%",
   margin: "7px 0px 7px 0px",
   padding: "0.4em",
   fontWeight: "600",
   fontSize: "1em",
+  border: "4px solid rgb(236, 72, 153)"
 };
 
 export const Eseal =  {
@@ -196,7 +202,7 @@ export function Verifier(props: WalletConnectionProps) {
 
   return (
     <div className="container hero" id="verifier" style={{maxWidth: "340px", paddingTop: "25vh", paddingBottom: "25vh"}}>
-      <div style={{border: "3px solid #ff80dfff", borderRadius: "8px", maxWidth: "340px"}}>
+      <div style={{border: "4px solid rgb(236, 72, 153)", borderRadius: "8px", maxWidth: "340px"}}>
         <div className="container"><button className="boxtitle" style={{"pointerEvents": "none", "color": "black"}}>Verify Your Certificates</button></div>
         <div className="container" style={{display: "flex", flexDirection: "row", justifyContent: "space-between", columnGap: "10px"}}>
           <WalletConnectionTypeButton
@@ -219,13 +225,13 @@ export function Verifier(props: WalletConnectionProps) {
           />
         </div>
         <div className="container" style={{paddingTop: "0em"}}>
-          {activeConnectorError && <p style={{ color: 'red' }}>Connector Error: {activeConnectorError}.</p>}
+          {activeConnectorError && <p style={{ color: 'peach' }}>Connector Error: {activeConnectorError}.</p>}
           {!activeConnectorError && !isWaitingForTransaction && activeConnectorType && !activeConnector && (
               <p>
                   <i>Loading connector...</i>
               </p>
           )}
-          {connectError && <p style={{ color: 'red' }}>Connect Error: {connectError}.</p>}
+          {connectError && <p style={{ color: 'peach' }}>Connect Error: {connectError}.</p>}
           {!connection && !isWaitingForTransaction && activeConnectorType && activeConnector && (
               <p>
                   <button style={ButtonStyle} type="button" onClick={connect}>
@@ -237,9 +243,9 @@ export function Verifier(props: WalletConnectionProps) {
           )}
           {account && (
             <>
-              <div style={{fontSize: "1.2em", padding: "0em 0.5em 0.5em 0em"}}>Connected to:</div>
+              <div style={{fontSize: "1.2em", padding: "0em 0.5em 0.5em 0em", fontWeight: "900"}}>Connected to:</div>
               <button
-                style={{background: "#7303fc", wordWrap: "break-word"}}
+                style={{background: "white", fontWeight: "400", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)", wordWrap: "break-word"}}
                   className="link"
                   type="button"
                   onClick={() => {
@@ -255,7 +261,7 @@ export function Verifier(props: WalletConnectionProps) {
             </>
           )}
           {genesisHash && genesisHash !== network.genesisHash && (
-              <p style={{ color: 'red' }}>
+              <p style={{ color: 'peach' }}>
                   Unexpected genesis hash: Please ensure that your wallet is connected to network{' '}
                   <code>{network.name}</code>.
               </p>
@@ -264,7 +270,7 @@ export function Verifier(props: WalletConnectionProps) {
         {account !== undefined && (
           <div className="container" style={{display: "flex", flexDirection: "column", paddingTop: "0em"}}>
             {/* <label> */}
-                <p style={{ marginBottom: 0, padding: "0em 0em 0.5em 0em", color: "#7303fc" }}>Select a file:</p>
+                <p style={{ marginBottom: 0, padding: "0em 0em 0.5em 0em", color: "white", fontWeight: "900" }}>Select a file:</p>
                 <input
                     className="input"
                     style={InputFieldStyle}
@@ -301,10 +307,10 @@ export function Verifier(props: WalletConnectionProps) {
             </button>
             </div>
             <div style={authority === '' ? Disabled : Enabled}>
-              <p style={{ marginBottom: 0, color: "#7303fc", paddingTop: "2vh", paddingBottom: "1vh" }}>File hash of selected certificate:</p>
-              {loadingError && <div style={{ color: 'red' }}>Error: {loadingError}.</div>}
+              <p style={{ marginBottom: 0, color: "white", paddingTop: "2vh", paddingBottom: "1vh", fontWeight: "900" }}>File hash of selected certificate:</p>
+              {loadingError && <div style={{ color: 'peach' }}>Error: {loadingError}.</div>}
               {isLoading && <div className="loadingText">Loading...</div>}
-              {fileHashHex !== '' && <div className="loadingText" style={{wordWrap: "break-word", background: "#7303fc", color: "white", padding: "0.4em", borderRadius: "8px", lineHeight: "1.3em"}}>0x{fileHashHex}</div>}
+              {fileHashHex !== '' && <div className="loadingText" style={{wordWrap: "break-word", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)", padding: "0.4em", borderRadius: "8px", lineHeight: "1.3em"}}>0x{fileHashHex}</div>}
             </div>
           </div>
         )}
@@ -317,28 +323,28 @@ export function Verifier(props: WalletConnectionProps) {
         )}
         {connection && account && verifiedResult !== 'unverified' && (
             <p style={{lineHeight: "1.2"}}>
-                {getFileError && <div style={{ color: 'red' }}>Error: {getFileError}.</div>}
+                {getFileError && <div style={{ color: 'peach' }}>Error: {getFileError}.</div>}
                 {!false && witness !== '' && (
                     <div style={{color: "#7303fc", paddingTop: "0em"}} className="container">
-                        <div style={{paddingBottom: "0.4em", paddingTop: "0em"}}>On-chain Record:</div>
-                        <div className="loadingText" style={{wordWrap: "break-word", padding: "0.4em", borderRadius: "8px", background: "#7303fc", color: "white"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
-                        <div className="loadingText" style={{paddingTop: "0.4em", lineHeight: "1.5"}}>
+                        <div style={{paddingBottom: "0.4em", paddingTop: "0em", color: "white", fontWeight: "900"}}>On-chain Record:</div>
+                        <div className="loadingText" style={{wordWrap: "break-word", padding: "0.4em", borderRadius: "8px", background: "white", color: "rgb(3, 21, 57)", border: "4px solid rgb(236, 72, 153)"}}>{witness === null ? 'Not registered' : witness} (witness)</div>
+                        <div className="loadingText" style={{paddingTop: "0.4em", lineHeight: "1.5", color: "white", fontWeight: "900"}}>
                             Timestamp: <br /><span style={ResultStyle}>{timestamp === null ? 'Not registered' : timestamp}</span>
                         </div>
-                        <div style={{marginTop: "0.4em"}}>
+                        <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
                             Certificate Issued To: <span style={ResultStyle}>{name === null ? 'No Name' : name}</span>
                         </div>
-                        <div style={{marginTop: "0.4em"}}>
+                        <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
                             Issued By: <span style={ResultStyle}>{authority === null ? 'No Authority' : authority}</span>
                         </div>
-                        <div style={{marginTop: "0.4em"}}>
+                        <div style={{marginTop: "0.5em", color: "white", fontWeight: "900"}}>
                             Certificate Type: <span style={ResultStyle}>{certType === null ? 'No Certificate Type' : certType}</span>
                         </div>
-                        <div style={{marginTop: "0.4em"}}>
+                        <div style={{marginTop: "0.5em"}}>
                             {
-                              <> <span style={{lineHeight: "1.5"}}>Transaction Hash:</span><br />
+                              <> <span style={{lineHeight: "1.5", color: "white", fontWeight: "900"}}>Transaction Hash:</span><br />
                                 <button
-                                  style={{background: "#7303fc", wordWrap: "break-word"}}
+                                  style={{background: "white", fontWeight: "400", border: "4px solid rgb(236, 72, 153)", color: "rgb(3, 21, 57)", wordWrap: "break-word"}}
                                     className="link"
                                     type="button"
                                     onClick={() => {
@@ -354,7 +360,7 @@ export function Verifier(props: WalletConnectionProps) {
                               </>
                             }
                         </div>
-                        <div className="container" style={{marginTop: "0.4em", backgroundColor: "#8CFF9E", padding: "0.5em 0.5em", borderRadius: "8px", textAlign: "center"}}>
+                        <div className="container" style={{marginTop: "0.5em", backgroundColor: "#8CFF9E", padding: "0.5em 0.5em", borderRadius: "8px", textAlign: "center", color: "rgb(3, 21, 57)"}}>
                             {hash === null ? '❌ Verification Failed' : '✅ Verified Record'}
                         </div>
                     </div>
@@ -363,7 +369,7 @@ export function Verifier(props: WalletConnectionProps) {
         )}
         {verifiedResult === 'unverified' && (
           <div className="container">
-          <button style={{background: "#FF7779", borderRadius: "8px", textAlign: "center"}}>Verification Failed ❌</button>
+          <button style={{background: "#EE6668", borderRadius: "8px", textAlign: "center"}}>Verification Failed ❌</button>
           </div>
         )}
         </div>

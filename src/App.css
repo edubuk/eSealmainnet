@@ -74,15 +74,15 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: #7303fc;
+  background-color: rgb(0,32,96);
+  color: #ffffff;
   overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-  color: #7303fc;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -93,7 +93,7 @@ h1 {
 p .highlight,
 h1 .highlight,
 h3 .highlight {
-  color: #7303fc;
+  color: #ffffff;
 }
 
 h2 {
@@ -141,7 +141,7 @@ ul {
   padding: 0.5em;
 }
 .container.container-purple {
-  background: #ac7ff4;
+  background: rgb(5, 39, 107);
 }
 .container.container-dark {
   background: #ffffff;
@@ -170,15 +170,16 @@ ul {
 
 a.button,
 button {
-  background: #7303fc;
+  background: white;
   border: none;
   border-radius: 8px;
-  color: #ffffff;
+  color: rgb(3, 21, 57);
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
   padding: 5px 10px;
   text-align: center;
+  border: 4px solid rgb(236, 72, 153);
 }
 
 a.button.button-dark,
@@ -385,13 +386,13 @@ button.button-small {
 }
 
 .sociallinks {
-  color: black;
+  color: white;
   justify-content: center;
   display: flex;
 }
 
 .sociallinks a {
-  color: black;
+  color: white;
   font-size: 24px;
 }
 
@@ -404,13 +405,13 @@ button.button-small {
 
 .container .textinputfield[type=text] {
   background-color: white;
-  color: #7303fc;
+  color: rgb(3, 21, 57);
   border-radius: 8px;
   margin: 7px 0px 7px 0px;
   padding: 0.4em;
   font-weight: 600;
   font-size: 1em;
-  border: 2px solid #ff80df;
+  border: 4px solid rgb(236, 72, 153);
 }
 
 .container .textinputfield[type=text]:focus {
@@ -418,11 +419,11 @@ button.button-small {
 }
 
 .container .textinputfield[type=text]:focus-within {
-  border: 2px solid #7303fc;
+  border: 4px solid rgb(236, 72, 153);
 }
 
 .boxtitle {
   pointer-events: none;
-  background-color: #ff80df;
-  color: black;
+  background-color: #ffffff;
+  color: rgb(3, 21, 57);
 }

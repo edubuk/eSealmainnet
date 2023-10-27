@@ -10,10 +10,10 @@ function connectorTypeStyle(baseStyle: any, isSelected: boolean, isConnected: bo
   const style = { ...baseStyle, width: '50%' };
 
   if (isConnected) {
-    style.backgroundColor = '#7303fc';
+    style.backgroundColor = '#ffffff';
     // style.border = '1px solid #';
   } else if (isSelected) {
-    style.backgroundColor = '#7303fc';
+    style.backgroundColor = '#ffffff';
     // style.border = '#5c02c9';
   }
 

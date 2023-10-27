@@ -1,4 +1,4 @@
-import edubuk from './edubuk.svg';
+import edubuk from './Edubuk.svg';
 import './App.css';
 
 export function Header() {
@@ -9,7 +9,7 @@ export function Header() {
   return (
       <header className="header">
         <div className="wrapper container">
-          <img src={edubuk} className="logo" alt="logo" style={{display: "inline-block", width: "130px", height: "130px"}} />
+          <img src={edubuk} className="logo" alt="logo" style={{display: "inline-block", width: "120px", height: "120px"}} />
           <a
             href="https://edubuk.io"
             target="_blank"
