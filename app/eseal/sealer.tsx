@@ -15,7 +15,7 @@ import {
 import sha256 from 'sha256';
 import {
   useGrpcClient,
-  TESTNET,
+  MAINNET,
   WalletConnectionProps,
   useConnection,
   useConnect,
@@ -139,7 +139,7 @@ export default function Sealer(props: WalletConnectionProps) {
   const [ctypeWarn, setCtypeWarn] = useState(false);
   const [formWarn, setFormWarn] = useState(false);
 
-  const grpcClient = useGrpcClient(TESTNET);
+  const grpcClient = useGrpcClient(MAINNET);
 
   const [isLoading, setLoading] = useState(false);
 
@@ -396,7 +396,7 @@ export default function Sealer(props: WalletConnectionProps) {
             onClick={
               () => {
                 window.open(
-                  `https://testnet.ccdscan.io/?dcount=1&dentity=account&daddress=${account}`,
+                  `https://www.ccdscan.io/?dcount=1&dentity=account&daddress=${account}`,
                   '_blank',
                   'noopener,noreferrer',
                 );
@@ -771,7 +771,7 @@ export default function Sealer(props: WalletConnectionProps) {
                                   onClick={
                                     () => {
                                       window.open(
-                                        `https://testnet.ccdscan.io/?dcount=1&dentity=transaction&dhash=${hash}`,
+                                        `https://www.ccdscan.io/?dcount=1&dentity=transaction&dhash=${hash}`,
                                         '_blank',
                                         'noopener,noreferrer'
                                       );

@@ -15,7 +15,7 @@ import {
 import sha256 from 'sha256';
 import {
   useGrpcClient,
-  TESTNET,
+  MAINNET,
 } from '@concordium/react-components'
 import {
   E_SEALING_CONTRACT_NAME,
@@ -72,7 +72,7 @@ async function viewFile(rpcClient: ConcordiumGRPCClient, fileHashHex: string) {
 }
 
 export default function Verifier() {
-  const grpcClient = useGrpcClient(TESTNET);
+  const grpcClient = useGrpcClient(MAINNET);
 
   const [isLoading, setLoading] = useState(false);
 
