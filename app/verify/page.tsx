@@ -67,6 +67,25 @@ export default function Verify() {
         </div>
       </div>
 
+      <div className="flex flex-col mb-12">
+        <Link
+          href="https://docs.google.com/spreadsheets/d/1WmeD0Kx45gBSkNOlhdLZTRjoYYbLdcjkHVZP1h2iVO4/edit?usp=sharing"
+          className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
+          target='_blank'
+          rel="noopener noreferrer"
+        >
+          <h2 className={`text-2xl font-semibold`}>
+            <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
+              Certificate Issuer Lookup
+            </span>
+            {' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 group-hover:-translate-y-0.5 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        </Link>
+      </div>
+
       <div className="mb-32 flex flex-col lg:flex-row-reverse lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
           href="/eseal"

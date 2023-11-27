@@ -24,7 +24,6 @@ import {
   CONTRACT_SUB_INDEX,
 } from "../utils/constants";
 import toStr from "../utils/utils";
-import { setFips } from "crypto";
 
 async function viewFile(rpcClient: ConcordiumGRPCClient, fileHashHex: string) {
   const param = serializeUpdateContractParameters(
@@ -277,7 +276,7 @@ export default function Verifier() {
                         : witness !== null && (
                           <div className="text-emerald-400 flex flex-col mt-2">
                             <span>Certificate Issued To:</span>
-                            <p className="text-center cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
+                            <p className="cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
                               {issuedTo}
                             </p>
                           </div>
@@ -291,7 +290,7 @@ export default function Verifier() {
                         : (
                           <div className="text-emerald-400 flex flex-col mt-2">
                             <span>Certificate Issued By:</span>
-                            <p className="text-center cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
+                            <p className="cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
                               {issuedBy}
                             </p>
                           </div>
@@ -305,7 +304,7 @@ export default function Verifier() {
                         : (
                           <div className="text-emerald-400 flex flex-col mt-2">
                             <span>Certificate Type:</span>
-                            <p className="text-center cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
+                            <p className="cursor-default font-mono p-2 mt-2 text-white rounded-xl break-words bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-center">
                               {certType}
                             </p>
                           </div>
