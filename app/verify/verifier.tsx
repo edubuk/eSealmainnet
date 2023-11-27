@@ -332,7 +332,7 @@ export default function Verifier() {
                         ? ''
                         : (
                           <div className="text-emerald-400 flex flex-col mt-2">
-                            <span>Witness:</span>
+                            <span>Certificate Issuer Account:</span>
                             <p className="text-center cursor-default font-mono p-2 mt-2 text-white rounded-xl break-all bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900">
                               {witness}
                             </p>
