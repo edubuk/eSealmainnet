@@ -91,7 +91,7 @@ export default function Verify() {
           <h1 className="text-center font-bold py-4 max-sm:text-xl sm:text-2xl md:text-3xl lg:text-4xl px-4">
             How Does Verifier Works?
           </h1>
-          <ul className="list-disc px-6 mx-6 my-6 list-outside leading-loose max-sm:text-lg sm:text-xl md:text-2xl lg:text-3xl">
+          <ul className="list-disc px-6 mx-6 my-6 list-outside leading-loose max-sm:text-lg sm:text-xl md:text-2xl">
             <li>The Certifying Authority registers the authorized certificate on eSealer.</li>
             <li>The eSealer calculates a hash value using a Secure Hashing Algorithm (Cryptography) and send it to Edubuk's smart contract <Link href="https://ccdscan.io/?dcount=1&dentity=contract&dcontractAddressIndex=9387&dcontractAddressSubIndex=0" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">(indexed 9387)</Link> on the mainnet of Concordium blockchain to store the record.</li>
             <li>The Verifier takes a Certificate file, calculates it's hash value and send it to Edubuk's smart contract on the mainnet of Concordium blockchain, which takes this filehash and searches for that hash value.</li>
