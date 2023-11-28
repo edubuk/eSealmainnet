@@ -1,8 +1,8 @@
 export default function ConveyorBeltTestimonials() {
   return (
-    <div className="relative text-lg text-left flex flex-row max-sm:max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl overflow-hidden mt-12">
+    <div className="relative max-sm:text-sm sm:text-lg  text-left flex flex-row max-sm:max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl overflow-hidden max-sm:mt-4 sm:mt-6 md:mt-8 lg:mt-12">
       {/* First Instance */}
-      <div className="flex flex-row animate-marquee pt-12 pb-12">
+      <div className="flex flex-row animate-marquee max-sm:py-4 sm:py-6 md:py-8 lg:py-12">
         {/* 1 */}
         <div className="flex flex-col items-center justify-between max-sm:w-72 sm:w-80 md:w-96 rounded-xl backdrop-blur-xl bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 bg-opacity-5 p-8 mx-8">
           <p className="italic">
@@ -75,7 +75,7 @@ export default function ConveyorBeltTestimonials() {
         </div>
       </div>
       {/* Second Instance */}
-      <div className="flex flex-row animate-marquee pt-12 pb-12">
+      <div className="flex flex-row animate-marquee max-sm:py-4 sm:py-6 md:py-8 lg:py-12">
         {/* 1 */}
         <div className="flex flex-col items-center justify-between max-sm:w-72 sm:w-80 md:w-96 rounded-xl backdrop-blur-xl bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 bg-opacity-5 p-8 mx-8">
           <p className="italic">

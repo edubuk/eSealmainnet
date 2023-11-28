@@ -48,19 +48,19 @@ export default function Ceta() {
       </div>
 
       <div className="flex flex-col pb-12 max-sm:pt-12 sm:pt-12 max-md:pt-12 md:pt-10 max-lg:pt-10 lg:pt-40 max-xl:pt-40 xl:pt-40 items-center justify-center">
-        <h1 className="text-center font-bold max-sm:text-5xl sm:text-5xl max-md:text-6xl md:text-6xl max-lg:text-7xl lg:text-7xl max-xl:text-8xl xl:text-8xl max-2xl:text-8xl 2xl:text-9xl">
+        <h1 className="text-center font-bold max-sm:text-4xl sm:text-4xl max-md:text-5xl md:text-5xl max-lg:text-6xl lg:text-6xl max-xl:text-6xl xl:text-7xl max-2xl:text-7xl 2xl:text-8xl">
           CETA Program
         </h1>
-        <div className="px-4 flex flex-col items-center justify-center text-xl text-white text-left max-w-5xl">
-          <h2 className="max-lg:pt-10 lg:pt-20 font-bold text-center max-sm:text-2xl sm:text-3xl max-md:text-3xl md:text-4xl max-lg:text:4xl">
+        <div className="px-4 flex flex-col items-center justify-center text-white  max-w-5xl">
+          <h2 className="max-lg:pt-10 lg:pt-20 font-bold text-center max-sm:text-xl sm:text-2xl max-md:text-2xl md:text-3xl max-lg:text:3xl">
             Certified Emerging Technologies Analyst
           </h2>
-          <p className="px-4 pb-16 max-w-5xl max-lg:pt-12 lg:pt-24 text-left max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-lg:text:2xl lg:text-3xl">
-            Edubuk&apos;s CETA Program offers combined and standalone courses in the following highly in-demand Emerging Technologies:
+          <p className="px-4 max-sm:pb-8 sm:pb-10 md:pb-12 lg:pb-16 max-w-5xl max-lg:pt-12 lg:pt-24 text-left max-sm:text-sm sm:text-lg max-md:text-lg md:text-xl max-lg:text:xl lg:text-2xl">
+            Edubuk&apos;s CETA Program offers combined and standalone courses in the following highly <span className="inline-block">in-demand</span> Emerging Technologies:
           </p>
 
           <div className="max-sm:w-auto max-w-xl text-left rounded-xl backdrop-blur-xl bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 bg-opacity-5">
-            <ul className="list-disc p-6 ml-6 list-outside leading-loose">
+            <ul className="list-disc p-6 ml-6 list-outside leading-loose max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl">
               <li>Artificial Intelligence & Machine Learning</li>
               <li>Blockchain & Distributed Ledger Technology (Web3, NFTs, Asset Tokenization)</li>
               <li>Cybersecurity</li>
@@ -73,8 +73,8 @@ export default function Ceta() {
             </ul>
           </div>
 
-          <div className="max-md:pb-12 md:pb-24 max-w-5xl max-lg:pt-12 flex flex-col items-center justify-center lg:pt-4 text-left max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl lg:text-3xl">
-            <p className="px-4 pb-16 max-w-5xl max-lg:pt-12 lg:pt-12 text-center max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-lg:text:2xl lg:text-3xl">
+          <div className="max-md:pb-4 md:pb-8 max-w-5xl max-lg:pt-6 flex flex-col items-center justify-center lg:pt-4 text-left max-sm:text-sm sm:text-lg max-md:text-lg md:text-xl lg:text-2xl">
+            <p className="px-4 max-sm:pb-8 sm:pb-10 md:pb-12 lg:pb-16 max-w-5xl max-md:pt-6 md:pt-12 text-center max-sm:text-sm sm:text-lg max-md:text-lg md:text-xl max-lg:text:xl lg:text-2xl">
               Our Comprehensive Certified Emerging Technologies Analyst (CETA) Program is carefully designed across three progressive levels:
             </p>
 
@@ -87,8 +87,8 @@ export default function Ceta() {
             </div>
           </div>
 
-          <div id="cetavideo" className="scroll-mt-24 max-md:pt-12 md:pt-18 pb-12 flex flex-col justify-center items-center">
-            <h2 className="pt-6 pb-12 md:pb-12 font-bold text-center max-sm:text-2xl sm:text-3xl max-md:text-3xl md:text-4xl max-lg:text:4xl lg:text-5xl max-xl:text-5xl xl:text-6xl max-2xl:text-6xl 2xl:text-6xl">
+          <div id="cetavideo" className="scroll-mt-24 max-md:pt-6 md:pt-12 pb-8 flex flex-col justify-center items-center">
+            <h2 className="pt-6 pb-12 md:pb-12 font-bold text-center max-sm:text-xl sm:text-2xl max-md:text-2xl md:text-3xl max-lg:text:3xl lg:text-4xl max-xl:text-4xl xl:text-5xl max-2xl:text-5xl 2xl:text-5xl">
               CETA Program Video
             </h2>
             <iframe className="max-sm:w-auto max-sm:h-full" width={640} height={360}
@@ -96,23 +96,23 @@ export default function Ceta() {
             ></iframe>
           </div>
 
-          <p className="max-w-5xl max-lg:pt-12 lg:pt-24 text-justify font-semibold max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-lg:text:2xl lg:text-2xl">
+          <p className="max-w-5xl max-sm:pt-4 sm:pt-8 md:pt-12 lg:pt-24 text-justify font-semibold max-sm:text-sm sm:text-lg max-md:text-lg md:text-xl max-lg:text:xl lg:text-2xl">
             One of the key highlights of the CETA Certification is its accessibility to learners (age 15 years to 60 years+) from all academic backgrounds.
-            <span className="font-semibold">You don&apos;t need any prior coding or computer science experience to participate and excel in the program.</span>
+            You don&apos;t need any prior coding or computer science experience to participate and excel in the program.
             Our primary focus lies in empowering learners with no-code and low-code modules, enabling them to harness the power of emerging technologies without getting bogged down in complex programming.
             Our curriculum includes modules on no-code groundbreaking generative AI applications such as ChatGPT (Text to Text, AI), MidJourney (Text to Image AI), Synthesia, and Wave.Video (Text to Video AI), WIX (Text to Website, AI).
           </p>
         </div>
       </div>
 
-      <div className="pb-24 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
+      <div className="max-sm:pb-10 sm:pb-14 md:pb-16 lg:pb-20 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSc4XF7guncd03dUVkOF3S0T0pA4LSyjaC1qlv2R9sxrZ-R68Q/viewform"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
           target='_blank'
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Enroll For CETA Program
             </span>
@@ -125,7 +125,7 @@ export default function Ceta() {
           target='_blank'
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Recruit CETA Professionals
             </span>
@@ -133,13 +133,13 @@ export default function Ceta() {
         </Link>
       </div>
 
-      <div className="pb-24 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
+      <div className="max-sm:pb-10 sm:pb-14 md:pb-16 lg:pb-20 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
           href="/eseal"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               eSeal Certificates
             </span>
@@ -155,7 +155,7 @@ export default function Ceta() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Verify Certificates
             </span>

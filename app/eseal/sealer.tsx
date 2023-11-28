@@ -353,10 +353,10 @@ export default function Sealer(props: WalletConnectionProps) {
                   }
                   className="bg-blue-400 text-black w-full rounded-xl break-words p-2 flex flex-row justify-left text-left"
                 >
-                  <AiOutlineInfoCircle className="mr-2 text-2xl font-bold subpixel-antialiased" />
-                  <p>
+                  <AiOutlineInfoCircle className="mr-2 mt-1 text-xl font-bold subpixel-antialiased" />
+                  <p className="max-sm:text-lg sm:text-xl md:text-2xl">
                     Please Connect to your{' '}
-                    <span className="font-extrabold">
+                    <span className="font-extrabold max-sm:text-lg sm:text-xl md:text-2xl">
                       Concordium
                     </span>
                     {' '}wallet
@@ -635,7 +635,7 @@ export default function Sealer(props: WalletConnectionProps) {
                           className="bg-red-400 text-black mt-4 w-full rounded-xl break-words p-2 flex flex-row justify-left text-left transform ease-in-out transition-colors delay-100"
                         >
                           <AiOutlineInfoCircle className="mr-2 text-2xl font-bold subpixel-antialiased mt-1" />
-                          <p>
+                          <p className="max-sm:text-lg sm:xl md:text-2xl">
                             Please Connect to your{' '}
                             <span className="font-extrabold">
                               Concordium

@@ -49,32 +49,32 @@ export default function Eseal() {
         </div>
       </div>
 
-      <div className="flex flex-col pb-12 max-sm:pt-12 sm:pt-12 max-md:pt-12 md:pt-10 max-lg:pt-10 lg:pt-40 max-xl:pt-40 xl:pt-44 items-center justify-center">
-        <h1 className="text-center font-bold max-sm:text-5xl sm:text-5xl max-md:text-6xl md:text-6xl max-lg:text-7xl lg:text-7xl max-xl:text-8xl xl:text-8xl max-2xl:text-8xl 2xl:text-9xl">
+      <div className="flex flex-col max-sm:pb-6 sm:pb-8 md:pb-10 lg:pb-12 max-sm:pt-12 sm:pt-12 max-md:pt-12 md:pt-10 max-lg:pt-10 lg:pt-40 max-xl:pt-40 xl:pt-44 items-center justify-center">
+        <h1 className="text-center font-bold max-sm:text-4xl sm:text-4xl max-md:text-5xl md:text-5xl max-lg:text-6xl lg:text-6xl max-xl:text-6xl xl:text-7xl max-2xl:text-7xl 2xl:text-8xl">
           eSeal Certificates
         </h1>
         <div className="px-4 flex flex-col items-center justify-center text-white text-left max-w-5xl">
-          <h2 className="max-lg:pt-10 lg:pt-20 font-normal text-center max-sm:text-2xl sm:text-3xl max-md:text-3xl md:text-4xl max-lg:text:4xl">
+          <h2 className="max-lg:pt-10 lg:pt-20 font-normal text-center max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-lg:text:2xl lg:text-2xl">
             Record Your Certificates & Transcripts on the Blockchain in a transparent & <br />tamper-proof manner.
           </h2>
         </div>
-        <div id="esealer" className="relative flex items-center justify-center my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
+        <div id="esealer" className="relative flex items-center justify-center max-sm:my-6 sm:my-8 md:my-10 lg:my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
           <div className="relative bg-transparent backdrop-blur-3xl bg-opacity-100 border border-zinc-700 p-4 rounded-xl">
             <div className="text-center max-sm:text-xl sm:text-2xl md:text-3xl">
-              <h1 className="font-extrabold text-4xl">eSealer</h1>
+              <h1 className="font-extrabold max-sm:text-2xl sm:text-3xl md:text-4xl">eSealer</h1>
             </div>
             <WithWalletConnector network={TESTNET}>{(props) => <Sealer {...props} />}</WithWalletConnector>
           </div>
         </div>
       </div>
 
-      <div className="pb-24 flex flex-col lg:flex-row-reverse lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
+      <div className="max-sm:pb-10 sm:pb-14 md:pb-16 lg:pb-20 flex flex-col lg:flex-row-reverse lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
           href="/verify"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Verify Certificates
             </span>
@@ -90,7 +90,7 @@ export default function Eseal() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           rel="noopener noreferrer"
         >
-          <h2 className={`text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-x-1 group-hover:-translate-y-0.5 motion-reduce:transform-none">
               &lt;-
             </span>
