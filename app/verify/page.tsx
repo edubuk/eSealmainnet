@@ -86,7 +86,24 @@ export default function Verify() {
         </Link>
       </div>
 
-      <div className="mb-32 flex flex-col lg:flex-row-reverse lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
+      <div className="my-12 pb-8">
+        <div className="max-sm:w-auto max-w-5xl text-left rounded-xl backdrop-blur-xl bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 bg-opacity-5 flex flex-col">
+          <h1 className="text-center font-bold py-4 max-sm:text-lg sm:text-xl md:text-2xl lg:text-3xl px-4">
+            How Does Verifier Works?
+          </h1>
+          <ul className="list-disc px-6 mx-6 my-6 list-outside leading-loose max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl">
+            <li>The Certifying Authority registers the authorized certificate on eSealer.</li>
+            <li>The eSealer calculates a hash value using a Secure Hashing Algorithm (Cryptography) and send it to Edubuk's smart contract <Link href="https://ccdscan.io/?dcount=1&dentity=contract&dcontractAddressIndex=9387&dcontractAddressSubIndex=0" className="text-emerald-400 font-semibold hover:text-sky-400" target="_blank">(indexed 9387)</Link> on the mainnet of Concordium blockchain to store the record.</li>
+            <li>The Verifier takes a Certificate file, calculates it's hash value and send it to Edubuk's smart contract on them mainnet of Concordium blockchain, which takes this filehash and searches for that hash value.</li>
+            <li>If the hash value is matched with a value stored with the Edubuk's Smart Contract on the mainnet of Concordium blockchain, then a verified record result is shown in green color.</li>
+            <li>But if the certificate is either tampered or forged, whose record is not present on the Concordium blockchain will get an error in red color.</li>
+            <li>If a certificate record is shown to be Verified, you can also lookup for the exact Institute/College/University who was the official "Certifying Authority" by mapping the address of "Certificate Issuer Account" using the "Certificate Issuer Lookup" button, provided above.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div className="mb-32 pb-12 flex flex-col lg:flex-row-reverse lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
           href="/eseal"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
@@ -119,7 +136,7 @@ export default function Verify() {
           </h2>
         </Link>
       </div>
-    </main>
+    </main >
   );
 }
 

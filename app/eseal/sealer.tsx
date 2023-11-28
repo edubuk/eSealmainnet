@@ -673,7 +673,7 @@ export default function Sealer(props: WalletConnectionProps) {
                   connection
                   && fileHashHex !== ''
                   && formWarn !== true &&
-                  < div className="p-4 break-all font-mono bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-white mt-4 rounded-xl break-all max-sm:text-lg sm:text-xl md:text-2xl">
+                  < div className="p-4 font-mono bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 text-white mt-4 rounded-xl break-all max-sm:text-lg sm:text-xl md:text-2xl">
                     0x{fileHashHex}
                   </div>
                 }
