@@ -84,7 +84,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="max-sm:pt-0 sm:pt-4 max-md:pt-4 md:pt-4 max-lg:pt-4 max-lg:pb-10 lg:pt-2 lg:pb-18 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
+      <div className="flex flex-col md:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:text-center lg:items-center max-lg:items-center max-lg:justify-between max-sm:pb-8 sm:pb-10 md:pb-12 lg:pb-14">
         <Link
           href="/eseal"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
@@ -103,7 +103,7 @@ export default function Home() {
 
         <Link
           href="/verify"
-          className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
+          className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-md:mt-5 max-md:ml-0 max-lg:ml-5 lg:ml-0"
           rel="noopener noreferrer"
         >
           <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
@@ -179,7 +179,7 @@ export default function Home() {
 
         <Image
           src="/unlogo.png"
-          className="px-4 max-sm:mt-6 sm:mt-8 md:mt-10 lg:mt-12 max-sm:mb-4 sm:mb-6 md:mb-8 lg:mb-12"
+          className="max-sm:mt-6 sm:mt-8 md:mt-10 lg:mt-12 max-sm:mb-4 sm:mb-6 md:mb-8 lg:mb-12 max-sm:px-8 md:max-w-2xl"
           alt="United Nations"
           width={2000}
           height={1697}
