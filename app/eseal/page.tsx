@@ -61,7 +61,9 @@ export default function Eseal() {
         <div id="esealer" className="relative flex items-center justify-center max-sm:my-6 sm:my-8 md:my-10 lg:my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
           <div className="relative bg-transparent backdrop-blur-3xl bg-opacity-100 border border-zinc-700 p-4 rounded-xl">
             <div className="text-center max-sm:text-xl sm:text-2xl md:text-3xl">
-              <h1 className="font-extrabold max-sm:text-2xl sm:text-3xl md:text-4xl">eSealer</h1>
+              <h1 className="font-extrabold max-sm:text-2xl sm:text-3xl md:text-4xl">
+                eSealer
+              </h1>
             </div>
             <WithWalletConnector network={TESTNET}>{(props) => <Sealer {...props} />}</WithWalletConnector>
           </div>

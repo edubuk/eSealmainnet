@@ -48,7 +48,7 @@ export default function Verify() {
         </div>
       </div>
 
-      <div className="flex flex-col max-sm:pb-8 sm:pb-10 md:pb-12 lg:pb-14 max-sm:pt-12 sm:pt-12 max-md:pt-12 md:pt-10 max-lg:pt-10 lg:pt-40 max-xl:pt-40 xl:pt-44 items-center justify-center">
+      <div className="flex flex-col max-sm:pb-6 sm:pb-8 md:pb-10 lg:pb-12 max-sm:pt-12 sm:pt-12 max-md:pt-12 md:pt-10 max-lg:pt-10 lg:pt-40 max-xl:pt-40 xl:pt-44 items-center justify-center">
         <h1 className="text-center font-bold max-sm:text-4xl sm:text-4xl max-md:text-5xl md:text-5xl max-lg:text-6xl lg:text-6xl max-xl:text-6xl xl:text-7xl max-2xl:text-7xl 2xl:text-8xl">
           Verify Certificates
         </h1>
@@ -57,10 +57,12 @@ export default function Verify() {
             Verify Certificates & Transcripts on the Blockchain in a transparent &{' '}<span className="inline-block">tamper-proof</span>{' '}manner
           </h2>
         </div>
-        <div id="verifier" className="relative flex items-center justify-center max-sm:my-4 sm:my-6 md:my-8 lg:my-10 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
+        <div id="verifier" className="relative flex items-center justify-center max-sm:my-6 sm:my-8 md:my-10 lg:my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
           <div className="relative bg-transparent backdrop-blur-3xl bg-opacity-100 border border-zinc-700 p-4 rounded-xl">
             <div className="text-center max-sm:text-xl sm:text-2xl md:text-3xl">
-              <h1 className="font-extrabold text-4xl">Verifier</h1>
+              <h1 className="font-extrabold max-sm:text-2xl sm:text-3xl md:text-4xl">
+                Verifier
+              </h1>
             </div>
             <Verifier />
           </div>

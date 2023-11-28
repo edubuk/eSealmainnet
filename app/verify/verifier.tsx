@@ -167,7 +167,7 @@ export default function Verifier() {
       <div className="subpixel-antialiased">
         <div className="mt-6">
           <form action="#">
-            <div className="flex flex-col mt-12">
+            <div className="flex flex-col max-sm:mt-6 sm:mt-8 md:mt-10 lg:mt-12">
               <div className="max-sm:text-lg sm:text-xl md:text-2xl flex flex-row max-sm:flex-col text-emerald-400">
                 Upload a file to verify:
                 <p className="flex flex-row justify-between">
