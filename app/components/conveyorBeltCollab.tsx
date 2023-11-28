@@ -22,7 +22,7 @@ export default function ConveyorBeltCollab() {
   ];
 
   return (
-    <div className="relative flex flex-row max-sm:max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl overflow-hidden max-sm:mt-4 sm:mt-6 md:mt-8 lg:mt-12">
+    <div className="relative flex flex-row max-sm:max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl overflow-hidden max-sm:mt-4 sm:mt-6 md:mt-8 lg:mt-12">
       <div className="flex flex-row animate-marquee max-sm:py-4 sm:py-6 md:py-8 lg:py-12">
         {
           awardsArr.map((el, i) => (

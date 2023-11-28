@@ -74,7 +74,7 @@ export default function Eseal() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           rel="noopener noreferrer"
         >
-          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Verify Certificates
             </span>
@@ -90,7 +90,7 @@ export default function Eseal() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           rel="noopener noreferrer"
         >
-          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-x-1 group-hover:-translate-y-0.5 motion-reduce:transform-none">
               &lt;-
             </span>

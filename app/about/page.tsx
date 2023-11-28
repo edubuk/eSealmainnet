@@ -93,7 +93,7 @@ export default function About() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
           rel="noopener noreferrer"
         >
-          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               eSeal Certificates
             </span>
@@ -109,7 +109,7 @@ export default function About() {
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-md:mt-5 max-md:ml-0 max-lg:ml-5 lg:ml-0"
           rel="noopener noreferrer"
         >
-          <h2 className={`max-sm:text-lg sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
+          <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
               Verify Certificates
             </span>
@@ -143,7 +143,7 @@ export default function About() {
               <h2 className="text-center max-sm:text-xl sm:text-2xl md:text-3xl pt-2">
                 Co-Founder & CEO
               </h2>
-              <p className="text-justify pt-4 max-sm:text-lg sm:text-xl font-normal">
+              <p className="text-justify pt-4 max-sm:text-sm sm:text-lg md:text-xl font-normal">
                 University Topper, UCG NET Qualified Professor in Economics and Management, Top 30 Young Indian Awardee with more than 10 years of experience in education industry. Appointed as National Vice President of Emerging Technologies Wing in WICCI (Women’s Indian Chamber of Commerce and Industry). Microsoft Certified Innovative Educator for Emerging Technologies Skilling.
               </p>
             </div>
@@ -163,7 +163,7 @@ export default function About() {
               <h2 className="text-center max-sm:text-xl sm:text-2xl md:text-3xl pt-2">
                 Co-Founder & CTO
               </h2>
-              <p className="text-justify pt-4 max-sm:text-lg sm:text-xl font-normal">
+              <p className="text-justify pt-4 max-sm:text-sm sm:text-lg md:text-xl font-normal">
                 Engineer from IIT and MBA from IIM (2 best institutes in India for Engineering and MBA), Gold Medallist, a CFA Charterholder (all 3 levels cleared in first attempt) with 10+ years of work experience in the Financial Markets (Hedge Funds and Investment Management) working with MNCs like Goldman Sachs, JP Morgan, DE Shaw and GlobalData&apos;s quant hedge fund clients. Completed training from ISB (Indian School of Business) Hyderabad, IBM and Google on various courses in Emerging Technologies. Sought-after global consultant and trainer in emerging technologies skills.
               </p>
             </div>
