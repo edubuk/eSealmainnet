@@ -55,18 +55,18 @@ export default function About() {
         </div>
         <div className="relative flex flex-col items-center justify-center p-4 text-white text-left lg:m-8 md:m-6 sm:m-4 max-sm:m-1">
           <div className="font-normal">
-            <p className="text-center justify-center max-sm:px-6 pt-8 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl">
+            <p className="text-center justify-center max-sm:px-6 pt-8 text-white lg:text-3xl max-lg:text-2xl max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-w-5xl">
               Edubuk is Your Gateway to the<br />
               Exciting World of Emerging Technological Skills<br />
               Built Securely Using AI and Blockchain!
             </p>
           </div>
 
-          <p className="text-center justify-center max-sm:px-6 pt-8 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl">
+          <p className="text-center justify-center max-sm:px-6 pt-8 text-white max-w-5xl max-sm:text-lg sm:text-xl md:text-2xl lg:text-3xl">
             Our mission is to upskill, reskill and certify learners with cutting-edge knowledge they need to thrive in the ever-evolving career paths of the 21st century driven by these emerging technologies.
           </p>
 
-          <div className="max-sm:pb-6 sm:pb-8 md:pb-10 lg:pb-12 max-w-5xl max-sm:pt-8 max-lg:pt-12 flex flex-col items-center justify-center lg:pt-24 text-left max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl lg:text-3xl">
+          <div className="max-sm:pb-6 sm:pb-8 md:pb-10 lg:pb-12 max-w-5xl max-sm:pt-6 sm:pt-8 md:pt-10 lg:pt-12 flex flex-col items-center justify-center text-left max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl lg:text-3xl">
             <p className=" text-justify">
               At Edubuk, we believe in recognizing your achievements in a way that stands out during your employment interviews and while you work in MNCs professionally.
               We provide a reliable and secure system that records your achievements and creates completely verified CVs, known as the Edubuk Profile, all stored on the Blockchain for transparency and reliability.
