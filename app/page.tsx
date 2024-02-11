@@ -180,7 +180,7 @@ export default function Home() {
         <Image
           src="/MoU Signing_Final_9.jpg"
           className="max-sm:mt-6 sm:mt-8 md:mt-10 lg:mt-12 max-sm:mb-4 sm:mb-6 md:mb-8 lg:mb-12 max-sm:px-8 md:max-w-2xl"
-          alt="IEE <> Edubuk MoU Signing</Image>"
+          alt="IEE and Edubuk MoU Signing"
           width={2774}
           height={2430}
           priority
