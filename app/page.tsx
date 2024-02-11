@@ -174,7 +174,7 @@ export default function Home() {
 
       <div id="collaborators" className="flex text-center flex-col max-sm:pt-8 sm:pt-8 max-md:pt-10 md:pt-12 max-lg:pt-14 lg:pt-16 items-center justify-center">
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
-          Edubuk <> IEE, US Collaboration
+          Edubuk and IEE, US Collaboration
         </h2>
 
         <Image
