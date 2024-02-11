@@ -59,7 +59,7 @@ export default function Home() {
           EDUBUK
         </h1>
         <p className="text-center justify-center max-sm:px-6 pt-8 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl">
-          Digitally Record & Verify Educational Transcripts and Work-Experience Certificates on the Blockchain making Background Verification Process Significantly Cheaper & Faster
+          Digitally Record & Verify Educational Transcripts and Work-Experience Certificates on Blockchain making Background Verification Process Significantly Cheaper & Faster
         </p>
         <div className="relative flex flex-col">
           <h2 className="font-bold max-sm:pt-6 text-center max-lg:pt-12 lg:pt-12 max-sm:text-3xl sm:text-3xl max-md:4xl md:text-4xl max-lg:text-5xl lg:text-5xl max-xl:text-5xl xl:text-6xl max-2xl:text-6xl 2xl:text-7xl">
