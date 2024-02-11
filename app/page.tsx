@@ -174,15 +174,15 @@ export default function Home() {
 
       <div id="collaborators" className="flex text-center flex-col max-sm:pt-8 sm:pt-8 max-md:pt-10 md:pt-12 max-lg:pt-14 lg:pt-16 items-center justify-center">
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
-          UN SDG&apos;s Compliance
+          Edubuk <> IEE, US Collaboration
         </h2>
 
         <Image
-          src="/unlogo.png"
+          src="/MoU Signing_Final_9.jpg"
           className="max-sm:mt-6 sm:mt-8 md:mt-10 lg:mt-12 max-sm:mb-4 sm:mb-6 md:mb-8 lg:mb-12 max-sm:px-8 md:max-w-2xl"
-          alt="United Nations"
-          width={2000}
-          height={1697}
+          alt="IEE <> Edubuk MoU Signing</Image>"
+          width={2774}
+          height={2430}
           priority
         />
 
