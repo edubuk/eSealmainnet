@@ -4,7 +4,7 @@ export default function ConveyorBeltCollab() {
   const awardsArr = [
     "/concordium.png",
     "/polygon.jpg",
-    "/cardano.jpg",
+    "/IEE logo OG.png",
     "/atlantis_uni.jpg",
     "/aws_edstart.jpg",
     "/wef.jpg",
