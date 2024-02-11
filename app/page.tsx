@@ -140,7 +140,7 @@ export default function Home() {
           Secure Your Transcripts on Blockchain
         </h2>
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
-          And Get it Verified instantly
+          And Get it Verified Instantly
         </h2>
 
         <Image
