@@ -136,7 +136,7 @@ export default function Home() {
       </div>
 
       <div id="learner" className="flex text-center flex-col pb-6 max-sm:px-6 max-sm:pt-2 sm:pt-4 max-md:pt-4 md:pt-6 max-lg:pt-6 lg:pt-20 xl:pt-28 items-center justify-center">
-        <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
+        <h2 className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
           Edubuk: Winner, G20 Conference, Indonesia 2022: 
         </h2>
         <h2 className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
