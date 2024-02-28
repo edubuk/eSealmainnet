@@ -137,18 +137,18 @@ export default function Home() {
 
       <div id="learner" className="flex text-center flex-col pb-6 max-sm:px-6 max-sm:pt-2 sm:pt-4 max-md:pt-4 md:pt-6 max-lg:pt-6 lg:pt-20 xl:pt-28 items-center justify-center">
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
-          Secure Your Transcripts on Blockchain
+          Edubuk: Winner, G20 Conference, Indonesia 2022: 
         </h2>
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
-          And Get it Verified Instantly
+          Best Startup, Jury's Choice
         </h2>
 
         <Image
-          src="/RecruiterFlyer 8x11in Edubuk-1.png"
+          src="/G20 Award.jpg"
           className="max-sm:pt-10 sm:pt-10 max-sm:px-8 sm:px-12"
           alt="Edubuk and IEE Flyer"
-          width={1120}
-          height={1540}
+          width={395}
+          height={591}
         />
       </div>
 
