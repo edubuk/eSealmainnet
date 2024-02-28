@@ -139,7 +139,7 @@ export default function Home() {
         <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
           Edubuk: Winner, G20 Conference, Indonesia 2022: 
         </h2>
-        <h2 className="text-center font-semibold max-sm:text-2xl sm:text-2xl max-md:2xl md:text-3xl max-lg:text-4xl lg:text-4xl max-xl:text-5xl xl:text-5xl max-2xl:text-6xl 2xl:text-6xl">
+        <h2 className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
           Best Startup, Jury's Choice
         </h2>
 
