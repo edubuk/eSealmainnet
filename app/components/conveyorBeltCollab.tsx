@@ -19,6 +19,9 @@ export default function ConveyorBeltCollab() {
     "/unometa.png",
     "/simats.png",
     "/cmr.jpg",
+    "/fabNewlogo.jpg",
+    "/datapoint-logo.png",
+    "/tutor_abc-final.png",
   ];
 
   return (
