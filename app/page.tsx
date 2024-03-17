@@ -84,7 +84,11 @@ export default function Home() {
         </p>
       
         <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
-          Signed MoU with DataPoint Interactive and TutorABC giving for recording Certificates of millions of students studying in thousands of Universities across the globe. <Link href="https://www.linkedin.com/pulse/education-evaluations-credentials-blockchain-verification-wu8ce/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
+          Collaborated and MoU signed with DataPoint Interactive and TutorABC for e-Sealing & Verifying Certificates on the blockchain of millions of students studying in thousands of Universities across the globe. <Link href="https://www.linkedin.com/pulse/education-evaluations-credentials-blockchain-verification-wu8ce/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
+        </p>
+
+        <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
+          Collaborated and MoU signed with EST Global and EST FAB giving for upskilling, reskilling and certifying learner's in Emerging Technologies including AI & Blockchain giving us access to thousands of students across the globe with ETS' vast Network of FAB (Fintech & Blockchain Association in the US and globally). <Link href="https://www.linkedin.com/posts/dr-sindhu-bhaskar-55a84568_with-great-excitement-i-announce-the-coming-activity-7174682311538413569-uLA6" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
         </p>
       
       </div>
