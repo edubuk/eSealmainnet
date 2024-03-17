@@ -107,7 +107,7 @@ export default function Ceta() {
 
       <div className="max-sm:pb-10 sm:pb-14 md:pb-16 lg:pb-20 flex flex-col lg:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:mb-0 lg:text-center lg:items-center max-lg:items-center max-lg:justify-between">
         <Link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc4XF7guncd03dUVkOF3S0T0pA4LSyjaC1qlv2R9sxrZ-R68Q/viewform"
+          href="https://edubuk.co.in/"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white"
           target='_blank'
           rel="noopener noreferrer"
@@ -120,7 +120,7 @@ export default function Ceta() {
         </Link>
 
         <Link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeXviiJAQtYKNd5mcxzy9gPE2i0jnvx9h43grBwdZ3G9gEd_Q/viewform"
+          href="https://edubuk.co.in/"
           className="group rounded-xl border border-blue-700 transition-colors duration-200 ease-in-out transition-delay-100 bg-blue-700 px-5 py-4 hover:border-white hover:bg-white hover:text-blue-700 hover:dark:border-white hover:dark:bg-white max-lg:mt-5"
           target='_blank'
           rel="noopener noreferrer"
