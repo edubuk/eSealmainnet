@@ -82,13 +82,15 @@ export default function Home() {
         <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
           Collaborated and MoU signed with World’s 4th Largest NACES (National Association of Credential Evaluation Services) Member: IEE (International Educational Evaluation) in the US. <Link href="https://www.einpresswire.com/article/692558064/international-education-evaluations-and-edubuk-partner-to-eliminate-fake-credentials-with-blockchain-verification" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
         </p>
+      
+        <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
+          Signed MoU with DataPoint Interactive and TutorABC giving for recording Certificates of millions of students studying in thousands of Universities across the globe. <Link href="https://www.linkedin.com/pulse/education-evaluations-credentials-blockchain-verification-wu8ce/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
+        </p>
+      
       </div>
 
-      </div>
-        <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
-          Collaborated and MoU signed with DataPoint Interactive and TutorABC giving for recording Certificates of millions of students studying in thousands of Universities across the globe. <Link href="https://www.linkedin.com/pulse/education-evaluations-credentials-blockchain-verification-wu8ce/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
-        </p>
-      </div>
+    
+        
 
       <div className="flex flex-col md:flex-row lg:max-w-5xl lg:w-full lg:justify-evenly lg:text-center lg:items-center max-lg:items-center max-lg:justify-between max-sm:pb-8 sm:pb-10 md:pb-12 lg:pb-14">
         <Link
