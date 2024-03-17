@@ -21,7 +21,7 @@ export default function ConveyorBeltCollab() {
     "/cmr.jpg",
     "/fabNewlogo.jpg",
     "/datapoint-logo.png",
-    "/tutor_abc-final.png",
+    "/Tutor-ABC-Logo.png",
   ];
 
   return (
