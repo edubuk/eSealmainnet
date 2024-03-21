@@ -55,7 +55,7 @@ export default function Eseal() {
         </h1>
         <div className="px-4 flex flex-col items-center justify-center text-white text-left max-w-5xl">
           <h2 className="max-lg:pt-10 lg:pt-20 font-normal text-center max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-lg:text:2xl lg:text-2xl">
-            Record Your Certificates & Transcripts on the Blockchain in a transparent & <br />tamper-proof manner.
+            Record Your Academic & Work-Experience Certificates, Transcripts and CVs on the Blockchain in a transparent & <br />tamper-proof manner.
           </h2>
         </div>
         <div id="esealer" className="relative flex items-center justify-center max-sm:my-6 sm:my-8 md:my-10 lg:my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
