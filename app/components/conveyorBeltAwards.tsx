@@ -27,6 +27,7 @@ export default function ConveyorBeltAwards() {
     "/digi.png",
     "/dubaiexpo.png",
     "/cnbc.png",
+    "/forbes-india-logo.jpg"
   ];
 
   return (
