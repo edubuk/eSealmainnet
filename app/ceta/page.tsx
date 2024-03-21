@@ -98,9 +98,9 @@ export default function Ceta() {
 
           <p className="max-w-5xl max-sm:pt-4 sm:pt-8 md:pt-12 lg:pt-24 text-justify font-semibold max-sm:text-sm sm:text-lg max-md:text-lg md:text-xl max-lg:text:xl lg:text-2xl">
             One of the key highlights of the CETA Certification is its accessibility to learners (age 15 years to 60 years+) from all academic backgrounds.
-            You don&apos;t need any prior coding or computer science experience to participate and excel in the program.
+            You don&apos;t need any prior coding or computer science experience to participate and excel in this program.
             Our primary focus lies in empowering learners with no-code and low-code modules, enabling them to harness the power of emerging technologies without getting bogged down in complex programming.
-            Our curriculum includes modules on no-code groundbreaking generative AI applications such as ChatGPT (Text to Text, AI), MidJourney (Text to Image AI), Synthesia, and Wave.Video (Text to Video AI), WIX (Text to Website, AI).
+            Our curriculum includes modules on no-code based groundbreaking generative AI applications such as ChatGPT (Text to Text, AI), MidJourney (Text to Image AI), Synthesia, and Wave.Video (Text to Video AI), WIX (Text to Website, AI).
           </p>
         </div>
       </div>
