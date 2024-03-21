@@ -16,7 +16,7 @@ export default function Footer() {
       <div className=" w-full max-sm:pt-40 max-sm:pb-20 sm:pb-24 sm:pt-36 md:pt-36  max-md:pb-24 md:pb-24 max-lg:pb-28 lg:pb-8 xl:pb-8 xl:pt-56">
         <div className="max-sm:px-4 max-sm:flex-col flex flex-row justify-evenly items-center w-full">
           <div className="font-semibold max-md:text-2xl md:text-3xl z-10">
-            Follow us
+            Follow us on Social Media
           </div>
           <div className="max-sm:pt-6 max-sm:px-4 font-semibold text-3xl z-10 flex flex-row text-gray-500 space-x-5 max-sm:space-x-3 ">
             <Link
