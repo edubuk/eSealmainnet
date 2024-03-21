@@ -58,7 +58,7 @@ export default function About() {
             <p className="text-center justify-center max-sm:px-6 pt-8 text-white lg:text-3xl max-lg:text-2xl max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl max-w-5xl">
               Edubuk is Your Gateway to the<br />
               Exciting World of Emerging Technological Skills<br />
-              Built Securely Using AI and Blockchain!
+              Built Securely Using AI and Blockchain
             </p>
           </div>
 
