@@ -120,7 +120,7 @@ export default function Home() {
         >
           <h2 className={`max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold`}>
             <span className="inline-block transition-transform group-hover:-translate-y-0.5 motion-reduce:transform-none">
-              Verify Certificates
+              e-Verify Certificates
             </span>
             {' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 group-hover:-translate-y-0.5 motion-reduce:transform-none">
