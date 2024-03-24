@@ -80,7 +80,7 @@ export default function Footer() {
               </p>
               <p className="pt-2">
                 <Link href="/#awards">
-                  Awards & Recognition
+                  Awards & Recognitions
                 </Link>
               </p>
             </div>
