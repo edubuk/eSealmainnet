@@ -61,7 +61,7 @@ export default function Ceta() {
 
           <div className="max-sm:w-auto max-w-xl text-left rounded-xl backdrop-blur-xl bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 bg-opacity-5">
             <ul className="list-disc p-6 ml-6 list-outside leading-loose max-sm:text-sm sm:text-lg md:text-xl lg:text-2xl">
-              <li>Artificial Intelligence & Machine Learning</li>
+              <li>Artificial Intelligence (AI) & Machine Learning</li>
               <li>Blockchain & Distributed Ledger Technology (Web3, NFTs, Asset Tokenization)</li>
               <li>Cybersecurity</li>
               <li>Cloud Computing</li>
