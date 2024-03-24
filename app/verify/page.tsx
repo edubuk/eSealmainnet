@@ -54,7 +54,7 @@ export default function Verify() {
         </h1>
         <div className="px-4 flex flex-col items-center justify-center text-white text-left max-w-5xl">
           <h2 className="max-lg:pt-10 lg:pt-20 font-normal text-center max-sm:text-xl sm:text-2xl max-md:text-2xl md:text-3xl max-lg:text:3xl lg:text-4xl">
-            Verify Academic & Work-Experience Certificates and CVs on the Blockchain in a transparent &{' '}<span className="inline-block">tamper-proof</span>{' '}manner
+            Verify Academic & Work-Experience Certificates and CVs on Blockchain in a transparent &{' '}<span className="inline-block">tamper-proof</span>{' '}manner
           </h2>
         </div>
         <div id="verifier" className="relative flex items-center justify-center max-sm:my-6 sm:my-8 md:my-10 lg:my-12 max-w-5xl mx-4 text-xl text-white font-semibold text-justify max-sm:pt-6 sm:pt-12 md:pt-12">
