@@ -63,7 +63,7 @@ export default function About() {
           </div>
 
           <p className="text-center justify-center max-sm:px-6 pt-8 text-white max-w-5xl max-sm:text-lg sm:text-xl md:text-2xl lg:text-3xl">
-            Our mission is to upskill, reskill and certify learners with cutting-edge knowledge they need to thrive in the ever-evolving career paths of the 21st century driven by these emerging technologies.
+            Our mission is to upskill, reskill and certify learners with cutting-edge knowledge needed to thrive in the ever-evolving career paths of the 21st century driven by these emerging technologies.
           </p>
 
           <div className="max-sm:pb-6 sm:pb-8 md:pb-10 lg:pb-12 max-w-5xl max-sm:pt-6 sm:pt-8 md:pt-10 lg:pt-12 flex flex-col items-center justify-center text-left max-sm:text-lg sm:text-xl max-md:text-xl md:text-2xl lg:text-3xl">
