@@ -65,19 +65,6 @@ export default function Home() {
           <h2 className="font-bold max-sm:pt-6 text-center max-lg:pt-12 lg:pt-12 max-sm:text-3xl sm:text-3xl max-md:4xl md:text-4xl max-lg:text-5xl lg:text-5xl max-xl:text-5xl xl:text-6xl max-2xl:text-6xl 2xl:text-7xl">
             eSeal dApp
           </h2>
-          <div className="max-lg:pt-4 max-sm:px-6 lg:pt-8 text-center max-sm:text-3xl sm:text-3xl max-md:4xl md:text-4xl max-lg:text-5xl lg:text-5xl max-xl:text-6xl xl:text-6xl max-2xl:text-7xl 2xl:text-7xl">
-            <Link href="https://concordium.com" target='_blank'>
-              <Image
-                src="/concordium-light.svg"
-                alt="Concordium"
-                layout='responsive'
-                width={768}
-                height={300}
-                priority
-                className="max-w-xl mx-auto px-12 lg:px-16"
-              />
-            </Link>
-          </div>
         </div>
         <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
           Collaborated and MoU signed with World’s 4th Largest NACES (National Association of Credential Evaluation Services) Member: IEE (International Educational Evaluation) in the US. <Link href="https://www.einpresswire.com/article/692558064/international-education-evaluations-and-edubuk-partner-to-eliminate-fake-credentials-with-blockchain-verification" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
