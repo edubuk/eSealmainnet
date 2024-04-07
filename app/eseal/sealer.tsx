@@ -357,7 +357,7 @@ export default function Sealer(props: WalletConnectionProps) {
                   <p className="max-sm:text-lg sm:text-xl md:text-2xl">
                     Please Connect to your{' '}
                     <span className="font-extrabold max-sm:text-lg sm:text-xl md:text-2xl">
-                      Web3 Wallet
+                      Web3
                     </span>
                     {' '}wallet
                   </p>
@@ -378,7 +378,7 @@ export default function Sealer(props: WalletConnectionProps) {
                   <p>
                     Please Connect to your{' '}
                     <span className="font-extrabold">
-                      Web3 Wallet
+                      Web3
                     </span>
                     {' '}wallet
                   </p>
@@ -638,7 +638,7 @@ export default function Sealer(props: WalletConnectionProps) {
                           <p className="max-sm:text-lg sm:xl md:text-2xl">
                             Please Connect to your{' '}
                             <span className="font-extrabold">
-                              Web3 Wallet
+                              Web3
                             </span>
                             {' '}wallet
                           </p>
