@@ -95,10 +95,10 @@ export default function Verify() {
           </h1>
           <ul className="list-disc px-6 mx-6 my-6 list-outside leading-loose max-sm:text-lg sm:text-xl md:text-2xl">
             <li>The Certifying Authority registers the authorized certificate on eSealer.</li>
-            <li>The eSealer calculates a hash value using a Secure Hashing Algorithm (Cryptography) and send it to Edubuk's smart contract <Link href="https://ccdscan.io/?dcount=1&dentity=contract&dcontractAddressIndex=9387&dcontractAddressSubIndex=0" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">(indexed 9387)</Link> on the mainnet of Concordium blockchain to store the record.</li>
-            <li>The Verifier takes a Certificate file, calculates it's hash value and send it to Edubuk's smart contract on the mainnet of Concordium blockchain, which takes this filehash and searches for that hash value.</li>
-            <li>If the hash value is matched with a value stored with the Edubuk's Smart Contract on the mainnet of Concordium blockchain, then a verified record result is shown in green color.</li>
-            <li>But if the certificate is either tampered or forged: whose record is not present on the Concordium blockchain, will get an error in red color.</li>
+            <li>The eSealer calculates a hash value using a Secure Hashing Algorithm (Cryptography) and send it to Edubuk's smart contract <Link href="https://ccdscan.io/?dcount=1&dentity=contract&dcontractAddressIndex=9387&dcontractAddressSubIndex=0" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">(indexed)</Link> on the mainnet of blockchain to store the record.</li>
+            <li>The Verifier takes a Certificate file, calculates it's hash value and send it to Edubuk's smart contract on the mainnet, which takes this filehash and searches for that hash value.</li>
+            <li>If the hash value is matched with a value stored with the Edubuk's Smart Contract on the mainnet, then a verified record result is shown in green color.</li>
+            <li>But if the certificate is either tampered or forged: whose record is not present on the blockchain, will get an error in red color.</li>
             <li>If a certificate record is shown to be Verified, you can also lookup for the exact Institute/College/University who was the official "Certifying Authority" by mapping the address of "Certificate Issuer Account" using the "Certificate Issuer Lookup" button, provided above.</li>
           </ul>
         </div>
