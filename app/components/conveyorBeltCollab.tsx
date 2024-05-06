@@ -20,7 +20,7 @@ export default function ConveyorBeltCollab() {
     "/simats.png",
     "/cmr.jpg",
     "/fabNewlogo.jpg",
-    "/datapoint-logo.png",
+    "/NSDC Logo.jpg",
     "/Tutor-ABC-Logo.png",
   ];
 
