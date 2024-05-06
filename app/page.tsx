@@ -71,7 +71,7 @@ export default function Home() {
         </p>
       
         <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
-          Collaborated and MoU signed with DataPoint Interactive and TutorABC for e-Sealing & Verifying Certificates on the blockchain of millions of students studying in thousands of Universities across the globe. <Link href="https://www.linkedin.com/pulse/education-evaluations-credentials-blockchain-verification-wu8ce/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
+          Collaborated with NSDC (National Skills Development Corporation, Govt. of India) under Skill India Digital Accelerator Program along with HDFC Bank Grants Program and Facilitated by T-Hub (Largest Startup Accelerator in India). Selected as top 10 Startups across India basis our CETA Program and eSealing of Educational & Work-Experience Certificates on the Blockchain. <Link href="https://www.linkedin.com/posts/apoorva-bajaj-iit-iim-cfa-edubuk_innovationecosystem-innovatewiththub-hdfcbank-activity-7193233564765728768--d0o/" className="text-sky-400 font-semibold hover:text-emerald-400" target="_blank">Click Here to Know More.</Link> 
         </p>
 
         <p className="text-center justify-center max-sm:pt-4 max-md:pt-8 md:pt-12 max-lg:pt-12 lg:pt-12 text-white lg:text-2xl max-lg:text-2xl max-sm:text-lg sm:text-lg max-md:text-xl md:text-xl max-w-5xl max-lg:px-16">
