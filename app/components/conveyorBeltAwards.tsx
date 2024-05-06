@@ -28,7 +28,7 @@ export default function ConveyorBeltAwards() {
     "/dubaiexpo.png",
     "/cnbc.png",
     "/forbes-india-logo.jpg",
-    "/Updated HDFC-Bank-logo.png"
+    "/HDFC-Bank-logo.png"
   ];
 
   return (
