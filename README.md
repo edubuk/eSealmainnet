@@ -1,7 +1,7 @@
 We have created a decentralized Application to Digitally Record & e-Seal Educational and Work-Experience Certificates on the Blockchain 
 making it significantly cheaper and faster for Universities and Employers to conduct background verification process of Students and Employees
 
-Live Website with Product: https://www.edubukeseal.org/
+Live Website with Product: https://www.edubukeseal.com/
 
 Front end of this website is Hosted on Vercel here: https://vercel.com/edubuk/e-sealmainnet
 
